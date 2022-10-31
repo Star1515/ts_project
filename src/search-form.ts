@@ -54,7 +54,7 @@ export function sortPlaces(arr: Place[], sort: iSortParams) {
   return arr.sort(sortBy);
 }
 
-export function search(formName: string, cb: Function = function () {}) {
+export function search(formName: string, cb: Function = function () { }) {
   const form = document.getElementById(formName);
 
   let data = {
